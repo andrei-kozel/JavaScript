@@ -13,7 +13,7 @@ $('span').on('click', function(event){
 
 //
 $('input[type="text"]').keypress(function(event){
-    if(event.which == 13) {
+    if(event.which === 13) {
         // grabbing new todo text from <input>
         var newTodoText = $(this).val();
         $(this).val('');
