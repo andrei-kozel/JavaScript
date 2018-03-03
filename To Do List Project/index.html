@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo List</title>
+    <!-- font Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- my css file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div id="container">
-        <h1>To-do list</h1>
-        <input type="text">
+        <h1>To-do list <i class="fa fa-plus"></i></h1>
+        <input type="text" placeholder="Add New ToDo">
         <ul>
-            <li><span>x</span> Go to potiones class</li>
-            <li><span>x</span> Buy new robes</li>
-            <li><span>x</span> Visit Hagrid</li>
-            <li><span>x</span> Fight Malfoy</li>
+            <li>
+                <span><i class="fa fa-trash"></i></span>Learn JavaScript</li>
+            <li>
+                <span><i class="fa fa-trash"></i></span>Leaen HTML and CSS</li>
+            <li>
+                <span><i class="fa fa-trash"></i></span>What about Node.js?</li>
+            <li>
+                <span><i class="fa fa-trash"></i></span>It's fun!</li>
         </ul>
 
     </div>
-    
+
+    <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="script/to-do-list.js"></script>
 </body>
